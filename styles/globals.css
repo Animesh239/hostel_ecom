@@ -21,7 +21,8 @@
     --color-text-base: 66, 71, 80; /* #424750*/
     --color-text-muted: 107, 114, 128; /*#6b7280*/
     --color-text-side: 255, 231, 231; /*#fff*/
-    --font-family: iranyekan, "IRANSans", "Tahoma";
+    /* --font-family: iranyekan, "IRANSans", "Tahoma"; */
+    --font-family: "Poppins", "Roboto", "sans-serif";
   }
 
   .dark {
@@ -40,7 +41,7 @@
     --color-text-side: 255, 231, 231; /*#fff*/
   }
 
-  html[dir="ltr"] {
+  html {
     --font-family: "Poppins", "Roboto", "sans-serif";
   }
 }
