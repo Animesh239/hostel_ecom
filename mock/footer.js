@@ -14,7 +14,7 @@ export const footerContent = [
         href: "/blank",
       },
       {
-        text: "Sale In CK",
+        text: "Sell on CampusKart",
         href: "/blank",
       },
       {
@@ -31,7 +31,7 @@ export const footerContent = [
         href: "/blank",
       },
       {
-        text: "",
+        text: "Return Procedures",
         href: "/blank",
       },
       {
