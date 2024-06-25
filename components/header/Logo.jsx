@@ -12,7 +12,7 @@ const Logo = () => {
           width={120}
           height={25}
           style={{ objectFit: 'contain' }}
-          className="cursor-pointer md:ltr:-mr-3"
+          className="cursor-pointer md:-mr-3"
         />
       </a>
     </Link>

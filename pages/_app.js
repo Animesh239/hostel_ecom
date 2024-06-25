@@ -1,7 +1,7 @@
 import Layout from "@/components/layout";
 
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 import "react-toastify/dist/ReactToastify.css";
 
