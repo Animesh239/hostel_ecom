@@ -9,16 +9,16 @@ const Footer = () => {
   const StartQuot = RiDoubleQuotesL;
   const EndQuot = RiDoubleQuotesR;
 
-  const quoteGenerator = async () => {
-    const response = await fetch("https://api.quotable.io/random"); // funnyQuote
-    const data = await response.json();
-    setQuote(data.content);
-    console.log(data.content);
-  };
+  // const quoteGenerator = async () => {
+  //   const response = await fetch("https://api.quotable.io/random"); // funnyQuote
+  //   const data = await response.json();
+  //   setQuote(data.content);
+  //   console.log(data.content);
+  // };
 
-  useEffect(() => {
-    quoteGenerator();
-  }, []);
+  // useEffect(() => {
+  //   quoteGenerator();
+  // }, []);
 
   return (
     <footer className="mt-12">
