@@ -1,6 +1,10 @@
 import Carousel from "@/components/carousel";
 import Benefits from "@/components/Benefits";
-import Offers from "@/components/Offers/Offers";
+import dynamic from "next/dynamic";
+
+
+const Offers = dynamic(() => import("../components/Offers/Offers"));
+const Category = dynamic(() => import("../components/category/Category"));
 
 export default function Home() {
   return (
@@ -8,6 +12,7 @@ export default function Home() {
       <Carousel />
       <Benefits />
       <Offers />
+      <Category />
     </div>
   );
 }
